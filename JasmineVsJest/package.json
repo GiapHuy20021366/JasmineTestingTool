@@ -1,0 +1,21 @@
+{
+  "name": "jasminevsjest",
+  "version": "1.0.0",
+  "description": "Compare speed between jasmine and jest",
+  "main": "index.js",
+  "scripts": {
+    "jasmine-test": "karma start karma.conf.js",
+    "jest-test": "npx jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^4.6.0",
+    "jest": "^29.5.0",
+    "jest-html-reporter": "^3.8.0",
+    "jest-runner": "^29.5.0",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-jasmine-html-reporter": "^2.0.0"
+  }
+}
